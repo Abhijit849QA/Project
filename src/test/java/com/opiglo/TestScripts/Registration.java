@@ -5,11 +5,8 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-<<<<<<< HEAD
 import org.openqa.selenium.edge.EdgeDriver;
-=======
 import org.openqa.selenium.firefox.FirefoxDriver;
->>>>>>> feature
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
