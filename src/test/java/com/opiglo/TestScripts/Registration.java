@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 public class Registration {
 	
 	@Test
+	(groups="smokeTest")
 	public void registration() {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
